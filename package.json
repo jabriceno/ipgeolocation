@@ -1,0 +1,33 @@
+{
+  "name": "ipgeolocation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "getIpInfo": "node src/scripts/ipGeolocation.js",
+    "start": "node -r dotenv/config ./src/index.js",
+    "seed": "node src/seeders/insertRequestedCountries.js",
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jabriceno/ipgeolocalization.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jabriceno/ipgeolocalization/issues"
+  },
+  "homepage": "https://github.com/jabriceno/ipgeolocalization#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.2",
+    "redis": "^3.0.2"
+  },
+  "devDependencies": {
+    "faker": "^5.1.0",
+    "nodemon": "^2.0.6"
+  }
+}
