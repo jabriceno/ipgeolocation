@@ -1,7 +1,7 @@
 # Localizador de Direcciones IP
 
 <!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here --->
-![GitHub repo size](https://img.shields.io/github/repo-size/jabriceno/ipgeolocalization)
+![GitHub repo size](https://img.shields.io/github/repo-size/jabriceno/ipgeolocation)
 
 Esta herramienta tiene por propósito determinar y almacenar informacion sobre el país origen de una dirección ip provista, para ello consulta a traves de distintos servicios de API para obtener la informacion a almacenar.
 
