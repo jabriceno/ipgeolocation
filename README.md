@@ -16,11 +16,11 @@ Antes de utilizar esta herramienta, asegurese de cumplir con los siguientes requ
 
 1. Clone el repositorio del proyecto:
 ```
-git clone https://github.com/jabriceno/ipgeolocalization.git
+git clone https://github.com/jabriceno/ipgeolocation.git
 ```
 2. Ingrese a la carpeta del proyecto:
 ```
-cd ipgeolocalization
+cd ipgeolocation
 ```
 3. Construya el contenedor docker:
 ```
@@ -36,7 +36,7 @@ docker-compose up -d
 1. Ingrese al contenedor docker con:
 
 ```
-docker exec -it ipgeolocalization_server_1 bash
+docker exec -it ipgeolocation_server_1 bash
 ```
 2. Una vez dentro del contenedor, puede analizar una dirección ip ejecutando el comando:
 ```
